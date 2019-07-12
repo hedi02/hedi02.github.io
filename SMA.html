@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ae6e19256434af481ea3baea51468d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    		<h1>test</h1>
+            <div class="folium-map" id="map_2ae6e19256434af481ea3baea51468d3" ></div>
+        
+</body>
+<script>    
+    
+            var map_2ae6e19256434af481ea3baea51468d3 = L.map(
+                "map_2ae6e19256434af481ea3baea51468d3",
+                {
+                    center: [-7.8022, 110.3679],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed91b8eb4ba74b878a13742249e70ef5 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);            
+        
+    
+            var marker_26b7e2677e6e481da675548424168990 = L.marker(
+                [-8.0634, 110.5775],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_c397fc9f5c174b9e8121dbe0b59ebeaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fd9a821649746638193cf0a39e786be = $(`<div id="html_6fd9a821649746638193cf0a39e786be" style="width: 100.0%; height: 100.0%;">SMAN 1 TANJUNGSARI</div>`)[0];
+            popup_c397fc9f5c174b9e8121dbe0b59ebeaf.setContent(html_6fd9a821649746638193cf0a39e786be);
+        
+
+        marker_26b7e2677e6e481da675548424168990.bindPopup(popup_c397fc9f5c174b9e8121dbe0b59ebeaf)
+        ;
+
+        
+    
+    
+            var marker_947f5fa70c4540c38ba81a1b9251082a = L.marker(
+                [-7.7722, 110.3067],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_9ba49d626e024fec8eae70a7a473e819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1e7de38d4849acb945e0254802001b = $(`<div id="html_2c1e7de38d4849acb945e0254802001b" style="width: 100.0%; height: 100.0%;">SMAN 1 GODEAN</div>`)[0];
+            popup_9ba49d626e024fec8eae70a7a473e819.setContent(html_2c1e7de38d4849acb945e0254802001b);
+        
+
+        marker_947f5fa70c4540c38ba81a1b9251082a.bindPopup(popup_9ba49d626e024fec8eae70a7a473e819)
+        ;
+
+        
+    
+    
+            var marker_60f6dbe81dd84a20ba7cd6c0c46d0953 = L.marker(
+                [-7.797942999999999, 110.36291999999999],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_19c79e65c81a42b2b30834db752312ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ed283ce3aa4a43993ba6da2b8ccb37 = $(`<div id="html_b9ed283ce3aa4a43993ba6da2b8ccb37" style="width: 100.0%; height: 100.0%;">SMAN 10 YOGYAKARTA</div>`)[0];
+            popup_19c79e65c81a42b2b30834db752312ed.setContent(html_b9ed283ce3aa4a43993ba6da2b8ccb37);
+        
+
+        marker_60f6dbe81dd84a20ba7cd6c0c46d0953.bindPopup(popup_19c79e65c81a42b2b30834db752312ed)
+        ;
+
+        
+    
+    
+            var marker_277f88d95b754583b53eb24b1693e21a = L.marker(
+                [-7.875665, 110.5423983],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_9f0545059094455cbbfbfbb9b6db1b89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_309d58dd66af4854912f3cf214e64adc = $(`<div id="html_309d58dd66af4854912f3cf214e64adc" style="width: 100.0%; height: 100.0%;">SMAN 1 PATUK</div>`)[0];
+            popup_9f0545059094455cbbfbfbb9b6db1b89.setContent(html_309d58dd66af4854912f3cf214e64adc);
+        
+
+        marker_277f88d95b754583b53eb24b1693e21a.bindPopup(popup_9f0545059094455cbbfbfbb9b6db1b89)
+        ;
+
+        
+    
+    
+            var marker_0c12db67b0a348729dcd240854d9decb = L.marker(
+                [-7.7997, 110.3525],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_6d820312d3e449beadea77fb9679855f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3a77842a15433bbc75bee8951359fd = $(`<div id="html_fb3a77842a15433bbc75bee8951359fd" style="width: 100.0%; height: 100.0%;">SMAN 1 YOGYAKARTA</div>`)[0];
+            popup_6d820312d3e449beadea77fb9679855f.setContent(html_fb3a77842a15433bbc75bee8951359fd);
+        
+
+        marker_0c12db67b0a348729dcd240854d9decb.bindPopup(popup_6d820312d3e449beadea77fb9679855f)
+        ;
+
+        
+    
+    
+            var marker_b02f6962a269423e824d6409933ab5c2 = L.marker(
+                [-7.752999999999999, 110.0],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_93e65ee6cf8e436f9be2cb7bf6c219f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb71cfab18f84d15b304d338ca4ddb66 = $(`<div id="html_cb71cfab18f84d15b304d338ca4ddb66" style="width: 100.0%; height: 100.0%;">SMAN 1 MINGGIR SLEMAN</div>`)[0];
+            popup_93e65ee6cf8e436f9be2cb7bf6c219f4.setContent(html_cb71cfab18f84d15b304d338ca4ddb66);
+        
+
+        marker_b02f6962a269423e824d6409933ab5c2.bindPopup(popup_93e65ee6cf8e436f9be2cb7bf6c219f4)
+        ;
+
+        
+    
+    
+            var marker_ffc47fa373f3411e946c76f0a06bbc9d = L.marker(
+                [-7.7865, 110.3736],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_e2792c5ffa9b4c6bb539421bc75626a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e3578669e934529a7c92e0c8533676a = $(`<div id="html_8e3578669e934529a7c92e0c8533676a" style="width: 100.0%; height: 100.0%;">SMAN 3 YOGYAKARTA</div>`)[0];
+            popup_e2792c5ffa9b4c6bb539421bc75626a3.setContent(html_8e3578669e934529a7c92e0c8533676a);
+        
+
+        marker_ffc47fa373f3411e946c76f0a06bbc9d.bindPopup(popup_e2792c5ffa9b4c6bb539421bc75626a3)
+        ;
+
+        
+    
+    
+            var marker_b83ebf258e0240d2a734095bf9376c5b = L.marker(
+                [-7.6585417, 110.4224517],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_e95cb913097b49afae513f5f678ac52c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83aeb85baf91457d91fd339f1b901524 = $(`<div id="html_83aeb85baf91457d91fd339f1b901524" style="width: 100.0%; height: 100.0%;">SMAN 1 PAKEM</div>`)[0];
+            popup_e95cb913097b49afae513f5f678ac52c.setContent(html_83aeb85baf91457d91fd339f1b901524);
+        
+
+        marker_b83ebf258e0240d2a734095bf9376c5b.bindPopup(popup_e95cb913097b49afae513f5f678ac52c)
+        ;
+
+        
+    
+    
+            var marker_4030eaafd00f4eef952656e424a1c424 = L.marker(
+                [-7.96983, 110.59411670000001],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_bef410bd232041d7acf7ef950cf0f3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe328df4c2024adeb40b6ca8eca63c43 = $(`<div id="html_fe328df4c2024adeb40b6ca8eca63c43" style="width: 100.0%; height: 100.0%;">SMAN 2 WONOSARI</div>`)[0];
+            popup_bef410bd232041d7acf7ef950cf0f3b4.setContent(html_fe328df4c2024adeb40b6ca8eca63c43);
+        
+
+        marker_4030eaafd00f4eef952656e424a1c424.bindPopup(popup_bef410bd232041d7acf7ef950cf0f3b4)
+        ;
+
+        
+    
+    
+            var marker_43ed03ae30874104841ffe4f191b0b2c = L.marker(
+                [-7.8003, 110.3954],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_7f0cee9c835e40febe36b65f06cb42cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9ec0017642b4f86968738fc037af64e = $(`<div id="html_e9ec0017642b4f86968738fc037af64e" style="width: 100.0%; height: 100.0%;">SMAN 8 YOGYAKARTA</div>`)[0];
+            popup_7f0cee9c835e40febe36b65f06cb42cc.setContent(html_e9ec0017642b4f86968738fc037af64e);
+        
+
+        marker_43ed03ae30874104841ffe4f191b0b2c.bindPopup(popup_7f0cee9c835e40febe36b65f06cb42cc)
+        ;
+
+        
+    
+    
+            var marker_63b04f41d0fd4491aa0ffd7922b15427 = L.marker(
+                [-7.7916, 110.4792],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_dfd2841067734a7cbb65d2e52aa40ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a006d89120ff44d895a002bfe59c9d74 = $(`<div id="html_a006d89120ff44d895a002bfe59c9d74" style="width: 100.0%; height: 100.0%;">SMAN 1 PRAMBANAN</div>`)[0];
+            popup_dfd2841067734a7cbb65d2e52aa40ff4.setContent(html_a006d89120ff44d895a002bfe59c9d74);
+        
+
+        marker_63b04f41d0fd4491aa0ffd7922b15427.bindPopup(popup_dfd2841067734a7cbb65d2e52aa40ff4)
+        ;
+
+        
+    
+    
+            var marker_ed0fe204ff0d445b89da6d31598bef27 = L.marker(
+                [-7.7736, 110.4129],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_d148cc870b614b469abcd37f78779cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acb13d61bdd8428b82197931fc77ec8d = $(`<div id="html_acb13d61bdd8428b82197931fc77ec8d" style="width: 100.0%; height: 100.0%;">SMAN 1 DEPOK</div>`)[0];
+            popup_d148cc870b614b469abcd37f78779cf5.setContent(html_acb13d61bdd8428b82197931fc77ec8d);
+        
+
+        marker_ed0fe204ff0d445b89da6d31598bef27.bindPopup(popup_d148cc870b614b469abcd37f78779cf5)
+        ;
+
+        
+    
+    
+            var marker_80fb5a9e45f04f938b5a07cdd500e9da = L.marker(
+                [-7.7775, 110.3678],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_621e26464ff745fa8e155856a7cb1fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade64d8890bc401aa95c5f56da087967 = $(`<div id="html_ade64d8890bc401aa95c5f56da087967" style="width: 100.0%; height: 100.0%;">SMAN 11 YOGYAKARTA</div>`)[0];
+            popup_621e26464ff745fa8e155856a7cb1fb5.setContent(html_ade64d8890bc401aa95c5f56da087967);
+        
+
+        marker_80fb5a9e45f04f938b5a07cdd500e9da.bindPopup(popup_621e26464ff745fa8e155856a7cb1fb5)
+        ;
+
+        
+    
+    
+            var marker_a6c68e9df1a944f1a4451545c3305eb1 = L.marker(
+                [-7.778039, 110.35316999999999],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_e2ddd1a042574ae9825c24bacb9fed22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a600b3eb5d68466199731880362ff570 = $(`<div id="html_a600b3eb5d68466199731880362ff570" style="width: 100.0%; height: 100.0%;">SMAN 2 YOGYAKARTA</div>`)[0];
+            popup_e2ddd1a042574ae9825c24bacb9fed22.setContent(html_a600b3eb5d68466199731880362ff570);
+        
+
+        marker_a6c68e9df1a944f1a4451545c3305eb1.bindPopup(popup_e2ddd1a042574ae9825c24bacb9fed22)
+        ;
+
+        
+    
+    
+            var marker_7a25540d203945e695ffaededfa71433 = L.marker(
+                [-7.7574, 110.4836],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_941e1da6474e4ea8a2939bc4e634c897 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_399f34af35d749f9abd939ebdb1ada11 = $(`<div id="html_399f34af35d749f9abd939ebdb1ada11" style="width: 100.0%; height: 100.0%;">SMAN 1 KALASAN</div>`)[0];
+            popup_941e1da6474e4ea8a2939bc4e634c897.setContent(html_399f34af35d749f9abd939ebdb1ada11);
+        
+
+        marker_7a25540d203945e695ffaededfa71433.bindPopup(popup_941e1da6474e4ea8a2939bc4e634c897)
+        ;
+
+        
+    
+    
+            var marker_48f9280591d844d28bd7010653fbdba8 = L.marker(
+                [-7.7815, 110.3727],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_321365d0640a4de39902a43e444062db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f547b0f00c8410aab1b4c492edf94b5 = $(`<div id="html_7f547b0f00c8410aab1b4c492edf94b5" style="width: 100.0%; height: 100.0%;">SMAN 6 YOGYAKARTA</div>`)[0];
+            popup_321365d0640a4de39902a43e444062db.setContent(html_7f547b0f00c8410aab1b4c492edf94b5);
+        
+
+        marker_48f9280591d844d28bd7010653fbdba8.bindPopup(popup_321365d0640a4de39902a43e444062db)
+        ;
+
+        
+    
+    
+            var marker_e267463de289431581faa75d0eff3ac7 = L.marker(
+                [-7.7815, 110.3765],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_f778f609719845fda927ccc278a1b3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e3e479b1d904debbc131e63abc1d9ce = $(`<div id="html_3e3e479b1d904debbc131e63abc1d9ce" style="width: 100.0%; height: 100.0%;">SMAN 9 YOGYAKARTA</div>`)[0];
+            popup_f778f609719845fda927ccc278a1b3b3.setContent(html_3e3e479b1d904debbc131e63abc1d9ce);
+        
+
+        marker_e267463de289431581faa75d0eff3ac7.bindPopup(popup_f778f609719845fda927ccc278a1b3b3)
+        ;
+
+        
+    
+    
+            var marker_41d04f83bc654644ba32e606d093fd67 = L.marker(
+                [-7.814, 110.3585],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_cf70cedecce7488d9fa286e83d9e5602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63added0543a4227bccfae8d5120a91b = $(`<div id="html_63added0543a4227bccfae8d5120a91b" style="width: 100.0%; height: 100.0%;">SMAN 7 YOGYAKARTA</div>`)[0];
+            popup_cf70cedecce7488d9fa286e83d9e5602.setContent(html_63added0543a4227bccfae8d5120a91b);
+        
+
+        marker_41d04f83bc654644ba32e606d093fd67.bindPopup(popup_cf70cedecce7488d9fa286e83d9e5602)
+        ;
+
+        
+    
+    
+            var marker_4fafd675214f4e418afa11eb9c865f23 = L.marker(
+                [-7.7049, 110.435],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_643f5a144cef4fc38738642178838a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f33735d7cd584104809d8b09eb72c595 = $(`<div id="html_f33735d7cd584104809d8b09eb72c595" style="width: 100.0%; height: 100.0%;">SMAN 2 NGAGLIK</div>`)[0];
+            popup_643f5a144cef4fc38738642178838a00.setContent(html_f33735d7cd584104809d8b09eb72c595);
+        
+
+        marker_4fafd675214f4e418afa11eb9c865f23.bindPopup(popup_643f5a144cef4fc38738642178838a00)
+        ;
+
+        
+    
+    
+            var marker_e17a6ab61b9e4811a0f46c247d57d424 = L.marker(
+                [-7.9372867, 110.57361170000001],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_861a4603529440fcb5371d0d3de68c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea43f232d4e4c4a8294a8f4bbe798f9 = $(`<div id="html_0ea43f232d4e4c4a8294a8f4bbe798f9" style="width: 100.0%; height: 100.0%;">SMAN 2 PLAYEN</div>`)[0];
+            popup_861a4603529440fcb5371d0d3de68c58.setContent(html_0ea43f232d4e4c4a8294a8f4bbe798f9);
+        
+
+        marker_e17a6ab61b9e4811a0f46c247d57d424.bindPopup(popup_861a4603529440fcb5371d0d3de68c58)
+        ;
+
+        
+    
+    
+            var marker_5b52d2bbe974497db684d7efc6338a48 = L.marker(
+                [-7.649431699999999, 110.368225],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_8e73088a8dc544b7a02f46c1d95a9c11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20bb8fe0d3b644aa9755ad6d2b4845fb = $(`<div id="html_20bb8fe0d3b644aa9755ad6d2b4845fb" style="width: 100.0%; height: 100.0%;">SMAN 1 TURI</div>`)[0];
+            popup_8e73088a8dc544b7a02f46c1d95a9c11.setContent(html_20bb8fe0d3b644aa9755ad6d2b4845fb);
+        
+
+        marker_5b52d2bbe974497db684d7efc6338a48.bindPopup(popup_8e73088a8dc544b7a02f46c1d95a9c11)
+        ;
+
+        
+    
+    
+            var marker_7ccd7a8fb0df4376b472361ccd73dbac = L.marker(
+                [-7.8905, 110.7121],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_e893465313e747f5946097c654b743ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d77851ec5ba44e29e2883a398d9aa8a = $(`<div id="html_4d77851ec5ba44e29e2883a398d9aa8a" style="width: 100.0%; height: 100.0%;">SMAN 1 SEMIN</div>`)[0];
+            popup_e893465313e747f5946097c654b743ef.setContent(html_4d77851ec5ba44e29e2883a398d9aa8a);
+        
+
+        marker_7ccd7a8fb0df4376b472361ccd73dbac.bindPopup(popup_e893465313e747f5946097c654b743ef)
+        ;
+
+        
+    
+    
+            var marker_69e45ce8a9474afd9da1ebdee2041892 = L.marker(
+                [-7.683039999999999, 110.339225],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_f10cf6a68bec4bbb90dfedd0a2afa45b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f23c5e425534627ab4cce8a97a9b6dd = $(`<div id="html_2f23c5e425534627ab4cce8a97a9b6dd" style="width: 100.0%; height: 100.0%;">SMAN 1 SLEMAN</div>`)[0];
+            popup_f10cf6a68bec4bbb90dfedd0a2afa45b.setContent(html_2f23c5e425534627ab4cce8a97a9b6dd);
+        
+
+        marker_69e45ce8a9474afd9da1ebdee2041892.bindPopup(popup_f10cf6a68bec4bbb90dfedd0a2afa45b)
+        ;
+
+        
+    
+    
+            var marker_20c799e260484a33aaf94c61546ad382 = L.marker(
+                [-8.0658, 110.7576],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_a11a5081dc834fcf9b26daa6c6696a77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f769434977e44b55b8ed5cc8918058df = $(`<div id="html_f769434977e44b55b8ed5cc8918058df" style="width: 100.0%; height: 100.0%;">SMAN 1 RONGKOP</div>`)[0];
+            popup_a11a5081dc834fcf9b26daa6c6696a77.setContent(html_f769434977e44b55b8ed5cc8918058df);
+        
+
+        marker_20c799e260484a33aaf94c61546ad382.bindPopup(popup_a11a5081dc834fcf9b26daa6c6696a77)
+        ;
+
+        
+    
+    
+            var marker_3ee7e95abb14451ba2fe2aaaa909e69f = L.marker(
+                [-7.9661826, 110.54459440000001],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_484de4139705401bbd0a3dc7c282a1da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_246b418ccf424190945987a149f878ea = $(`<div id="html_246b418ccf424190945987a149f878ea" style="width: 100.0%; height: 100.0%;">SMAN 1 PLAYEN</div>`)[0];
+            popup_484de4139705401bbd0a3dc7c282a1da.setContent(html_246b418ccf424190945987a149f878ea);
+        
+
+        marker_3ee7e95abb14451ba2fe2aaaa909e69f.bindPopup(popup_484de4139705401bbd0a3dc7c282a1da)
+        ;
+
+        
+    
+    
+            var marker_0b41060634d347839e4a80f088e6a98e = L.marker(
+                [-7.649761, 110.433291],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_76651bb522554e69aab36665de8afe38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2744672daaaa492989017271e14d9d0e = $(`<div id="html_2744672daaaa492989017271e14d9d0e" style="width: 100.0%; height: 100.0%;">SMAN 1 CANGKRINGAN</div>`)[0];
+            popup_76651bb522554e69aab36665de8afe38.setContent(html_2744672daaaa492989017271e14d9d0e);
+        
+
+        marker_0b41060634d347839e4a80f088e6a98e.bindPopup(popup_76651bb522554e69aab36665de8afe38)
+        ;
+
+        
+    
+    
+            var marker_7d8b9f432a9e4987808efa1803d7a44e = L.marker(
+                [-8.0104, 110.6454],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_b74a40c43fa94dd68dafb032c605fc41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac00d576420a47d1b8f02caa7d141ee1 = $(`<div id="html_ac00d576420a47d1b8f02caa7d141ee1" style="width: 100.0%; height: 100.0%;">SMAN 1 SEMANU</div>`)[0];
+            popup_b74a40c43fa94dd68dafb032c605fc41.setContent(html_ac00d576420a47d1b8f02caa7d141ee1);
+        
+
+        marker_7d8b9f432a9e4987808efa1803d7a44e.bindPopup(popup_b74a40c43fa94dd68dafb032c605fc41)
+        ;
+
+        
+    
+    
+            var marker_5f98f5cc03e4402aabc46d11602875a8 = L.marker(
+                [-7.772, 110.3626],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_39234e0282a54f458c78d97a41452563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fbdba40e2d34a98a95459c10ade23a3 = $(`<div id="html_6fbdba40e2d34a98a95459c10ade23a3" style="width: 100.0%; height: 100.0%;">SMAN 4 YOGYAKARTA</div>`)[0];
+            popup_39234e0282a54f458c78d97a41452563.setContent(html_6fbdba40e2d34a98a95459c10ade23a3);
+        
+
+        marker_5f98f5cc03e4402aabc46d11602875a8.bindPopup(popup_39234e0282a54f458c78d97a41452563)
+        ;
+
+        
+    
+    
+            var marker_4649dc509ad64e3ebe7367bb22a46088 = L.marker(
+                [-8.0219, 110.421],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_c95438d04cb345cc9aa69f6fe8346062 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94c583e447f94274bfda8d3d815829d7 = $(`<div id="html_94c583e447f94274bfda8d3d815829d7" style="width: 100.0%; height: 100.0%;">SMAN 1 PANGGANG</div>`)[0];
+            popup_c95438d04cb345cc9aa69f6fe8346062.setContent(html_94c583e447f94274bfda8d3d815829d7);
+        
+
+        marker_4649dc509ad64e3ebe7367bb22a46088.bindPopup(popup_c95438d04cb345cc9aa69f6fe8346062)
+        ;
+
+        
+    
+    
+            var marker_c49c5a14ad7b4a29ab19e4538f6c094d = L.marker(
+                [-7.7881, 110.3349],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_13bc16ab038742a7a271cee3240ade1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840ee710a9054d96b0c3cd766649ce95 = $(`<div id="html_840ee710a9054d96b0c3cd766649ce95" style="width: 100.0%; height: 100.0%;">SMAN 1 GAMPING</div>`)[0];
+            popup_13bc16ab038742a7a271cee3240ade1f.setContent(html_840ee710a9054d96b0c3cd766649ce95);
+        
+
+        marker_c49c5a14ad7b4a29ab19e4538f6c094d.bindPopup(popup_13bc16ab038742a7a271cee3240ade1f)
+        ;
+
+        
+    
+    
+            var marker_5fb1f79802f949609e9a3fab25c1f290 = L.marker(
+                [-7.7074, 110.3081],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_1038d04f67bd401b9e06b367e906d38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae37a932456945a097359af17207bf5a = $(`<div id="html_ae37a932456945a097359af17207bf5a" style="width: 100.0%; height: 100.0%;">SMAN 1 SEYEGAN</div>`)[0];
+            popup_1038d04f67bd401b9e06b367e906d38e.setContent(html_ae37a932456945a097359af17207bf5a);
+        
+
+        marker_5fb1f79802f949609e9a3fab25c1f290.bindPopup(popup_1038d04f67bd401b9e06b367e906d38e)
+        ;
+
+        
+    
+    
+            var marker_02757e6d2b334b54b3faa68601270035 = L.marker(
+                [-7.7338, 110.3294],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_161a48f29e14425b86726dd97612b997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2682c7ccb8a54225b95f5b6d74126440 = $(`<div id="html_2682c7ccb8a54225b95f5b6d74126440" style="width: 100.0%; height: 100.0%;">SMAN 1 MLATI</div>`)[0];
+            popup_161a48f29e14425b86726dd97612b997.setContent(html_2682c7ccb8a54225b95f5b6d74126440);
+        
+
+        marker_02757e6d2b334b54b3faa68601270035.bindPopup(popup_161a48f29e14425b86726dd97612b997)
+        ;
+
+        
+    
+    
+            var marker_90ff6197090e4c47b64dbbe2aedbc36e = L.marker(
+                [-7.9659417, 110.6725767],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_87bdf973948a43ea88f3f963632c7bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_191de19d9da8448195679baec5223889 = $(`<div id="html_191de19d9da8448195679baec5223889" style="width: 100.0%; height: 100.0%;">SMAN 1 KARANGMOJO</div>`)[0];
+            popup_87bdf973948a43ea88f3f963632c7bad.setContent(html_191de19d9da8448195679baec5223889);
+        
+
+        marker_90ff6197090e4c47b64dbbe2aedbc36e.bindPopup(popup_87bdf973948a43ea88f3f963632c7bad)
+        ;
+
+        
+    
+    
+            var marker_14c74769095d48feb256610a87933477 = L.marker(
+                [-7.6625083, 110.3096317],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_a165b2e580d145bfb5da39792ac197d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ded1f63e4ecf482586c9e6853ed3ac64 = $(`<div id="html_ded1f63e4ecf482586c9e6853ed3ac64" style="width: 100.0%; height: 100.0%;">SMAN 1 TEMPEL</div>`)[0];
+            popup_a165b2e580d145bfb5da39792ac197d3.setContent(html_ded1f63e4ecf482586c9e6853ed3ac64);
+        
+
+        marker_14c74769095d48feb256610a87933477.bindPopup(popup_a165b2e580d145bfb5da39792ac197d3)
+        ;
+
+        
+    
+    
+            var marker_5d73ef32475c485e92963cd3212fb93a = L.marker(
+                [-7.9656, 110.5989],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_14321567920943c984e35900149156e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_223e4902e20b43ddb033b78582c6f56c = $(`<div id="html_223e4902e20b43ddb033b78582c6f56c" style="width: 100.0%; height: 100.0%;">SMAN 1 WONOSARI</div>`)[0];
+            popup_14321567920943c984e35900149156e4.setContent(html_223e4902e20b43ddb033b78582c6f56c);
+        
+
+        marker_5d73ef32475c485e92963cd3212fb93a.bindPopup(popup_14321567920943c984e35900149156e4)
+        ;
+
+        
+    
+    
+            var marker_bce93380485243d7bf7c297e72c852d6 = L.marker(
+                [-7.8226, 110.3994],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_810163da5e7f41819047468869e03957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dc02459679f4aa6be1a4eead3ab5dbd = $(`<div id="html_0dc02459679f4aa6be1a4eead3ab5dbd" style="width: 100.0%; height: 100.0%;">SMAN 5 YOGYAKARTA</div>`)[0];
+            popup_810163da5e7f41819047468869e03957.setContent(html_0dc02459679f4aa6be1a4eead3ab5dbd);
+        
+
+        marker_bce93380485243d7bf7c297e72c852d6.bindPopup(popup_810163da5e7f41819047468869e03957)
+        ;
+
+        
+    
+    
+            var marker_a9686a51c6704c1081897051862500a6 = L.marker(
+                [-7.7004, 110.4606],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_bc33476039af494eb2222f8d8e1f1afd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_819048a640784167a4e360129df437c6 = $(`<div id="html_819048a640784167a4e360129df437c6" style="width: 100.0%; height: 100.0%;">SMAN 1 NGEMPLAK</div>`)[0];
+            popup_bc33476039af494eb2222f8d8e1f1afd.setContent(html_819048a640784167a4e360129df437c6);
+        
+
+        marker_a9686a51c6704c1081897051862500a6.bindPopup(popup_bc33476039af494eb2222f8d8e1f1afd)
+        ;
+
+        
+    
+    
+            var marker_fd69fd63054c440e9e910fa2338b1624 = L.marker(
+                [-7.701921700000001, 110.3726867],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_395f321ea6fb4f3f8fb41a3ac240e170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70714a0522674f319be8b09db024c020 = $(`<div id="html_70714a0522674f319be8b09db024c020" style="width: 100.0%; height: 100.0%;">SMAN 2 SLEMAN</div>`)[0];
+            popup_395f321ea6fb4f3f8fb41a3ac240e170.setContent(html_70714a0522674f319be8b09db024c020);
+        
+
+        marker_fd69fd63054c440e9e910fa2338b1624.bindPopup(popup_395f321ea6fb4f3f8fb41a3ac240e170)
+        ;
+
+        
+    
+    
+            var marker_bfb5c5b906ae4d4a8f7f47b35f4746da = L.marker(
+                [-7.6872, 110.3888],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_ac4fb11c82e24228a411178438acf229 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d1c3207a134b7584c7dc13505a4145 = $(`<div id="html_b7d1c3207a134b7584c7dc13505a4145" style="width: 100.0%; height: 100.0%;">SMAN 1 NGAGLIK</div>`)[0];
+            popup_ac4fb11c82e24228a411178438acf229.setContent(html_b7d1c3207a134b7584c7dc13505a4145);
+        
+
+        marker_bfb5c5b906ae4d4a8f7f47b35f4746da.bindPopup(popup_ac4fb11c82e24228a411178438acf229)
+        ;
+
+        
+    
+    
+            var marker_8261a99ab3f74c02a854e720ade22941 = L.marker(
+                [-7.9109, 110.3923],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_8f03c493db9a49dd889306a20802578e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90004e9692f449e6ac4fd9a9fad293ae = $(`<div id="html_90004e9692f449e6ac4fd9a9fad293ae" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 IMOGIRI</div>`)[0];
+            popup_8f03c493db9a49dd889306a20802578e.setContent(html_90004e9692f449e6ac4fd9a9fad293ae);
+        
+
+        marker_8261a99ab3f74c02a854e720ade22941.bindPopup(popup_8f03c493db9a49dd889306a20802578e)
+        ;
+
+        
+    
+    
+            var marker_8a05439fa0bd4c7d94739753e9e52b83 = L.marker(
+                [-7.9571, 110.2674],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_619e6af17675442d946d7a326e8d6041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b33bfb20fc24751b3e80953fddb273a = $(`<div id="html_8b33bfb20fc24751b3e80953fddb273a" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SANDEN</div>`)[0];
+            popup_619e6af17675442d946d7a326e8d6041.setContent(html_8b33bfb20fc24751b3e80953fddb273a);
+        
+
+        marker_8a05439fa0bd4c7d94739753e9e52b83.bindPopup(popup_619e6af17675442d946d7a326e8d6041)
+        ;
+
+        
+    
+    
+            var marker_26d2a963592748e78f88325753cd2f14 = L.marker(
+                [-7.773, 110.1921],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_72a40efe29a84a1996a7186ab729e4b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c80805757d254573a4bd43886e354950 = $(`<div id="html_c80805757d254573a4bd43886e354950" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 GIRIMULYO</div>`)[0];
+            popup_72a40efe29a84a1996a7186ab729e4b6.setContent(html_c80805757d254573a4bd43886e354950);
+        
+
+        marker_26d2a963592748e78f88325753cd2f14.bindPopup(popup_72a40efe29a84a1996a7186ab729e4b6)
+        ;
+
+        
+    
+    
+            var marker_117cf84e08084308adab61fcc39e14ce = L.marker(
+                [-7.8942, 110.3383],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_9802e99654fd422db2c31ff58d4c8054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_259e03c1c4f145238b60a7663d5b5d05 = $(`<div id="html_259e03c1c4f145238b60a7663d5b5d05" style="width: 100.0%; height: 100.0%;">SMA NEGERI 2 BANTUL</div>`)[0];
+            popup_9802e99654fd422db2c31ff58d4c8054.setContent(html_259e03c1c4f145238b60a7663d5b5d05);
+        
+
+        marker_117cf84e08084308adab61fcc39e14ce.bindPopup(popup_9802e99654fd422db2c31ff58d4c8054)
+        ;
+
+        
+    
+    
+            var marker_20dcb688b5df4ebbabf9bbf1ef2dafcd = L.marker(
+                [-7.9428, 110.2443],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_d53868d6d305480aabbefcd3418cb488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0ba775d657f4852ba92b9cd33ccacc9 = $(`<div id="html_b0ba775d657f4852ba92b9cd33ccacc9" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SRANDAKAN</div>`)[0];
+            popup_d53868d6d305480aabbefcd3418cb488.setContent(html_b0ba775d657f4852ba92b9cd33ccacc9);
+        
+
+        marker_20dcb688b5df4ebbabf9bbf1ef2dafcd.bindPopup(popup_d53868d6d305480aabbefcd3418cb488)
+        ;
+
+        
+    
+    
+            var marker_5ec953d5863d40cb989d8aa5508a1f5d = L.marker(
+                [-7.934135, 110.20155],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_c63082b32c4b4172b12d3c2713e32181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9210aaadb7e545d68ff3f8126372c779 = $(`<div id="html_9210aaadb7e545d68ff3f8126372c779" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 GALUR</div>`)[0];
+            popup_c63082b32c4b4172b12d3c2713e32181.setContent(html_9210aaadb7e545d68ff3f8126372c779);
+        
+
+        marker_5ec953d5863d40cb989d8aa5508a1f5d.bindPopup(popup_c63082b32c4b4172b12d3c2713e32181)
+        ;
+
+        
+    
+    
+            var marker_3d68e54d7b894584b5f8269fb4d9ed5f = L.marker(
+                [-7.855298299999999, 110.1583017],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_7b2de1b70f4f45a1b06530f5bc58c133 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2559a4ad3ae24e739cc0853672a1a4a1 = $(`<div id="html_2559a4ad3ae24e739cc0853672a1a4a1" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 WATES</div>`)[0];
+            popup_7b2de1b70f4f45a1b06530f5bc58c133.setContent(html_2559a4ad3ae24e739cc0853672a1a4a1);
+        
+
+        marker_3d68e54d7b894584b5f8269fb4d9ed5f.bindPopup(popup_7b2de1b70f4f45a1b06530f5bc58c133)
+        ;
+
+        
+    
+    
+            var marker_f299e147c6d74dfb97f6ac8c02c5e8b7 = L.marker(
+                [-7.894118300000001, 110.14671829999999],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_8fa37fda121341f082addaeb7ba2de34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d30c55c4db604eeda7f668b3e320321c = $(`<div id="html_d30c55c4db604eeda7f668b3e320321c" style="width: 100.0%; height: 100.0%;">SMA NEGERI 2 WATES</div>`)[0];
+            popup_8fa37fda121341f082addaeb7ba2de34.setContent(html_d30c55c4db604eeda7f668b3e320321c);
+        
+
+        marker_f299e147c6d74dfb97f6ac8c02c5e8b7.bindPopup(popup_8fa37fda121341f082addaeb7ba2de34)
+        ;
+
+        
+    
+    
+            var marker_25613e9b22604fee95352957f5cc015c = L.marker(
+                [-7.882097999999999, 110.304797],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_c418ca770084444fb8c029c6ebef3778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c26cfaa25f87406da16c65a6dc690615 = $(`<div id="html_c26cfaa25f87406da16c65a6dc690615" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 PAJANGAN</div>`)[0];
+            popup_c418ca770084444fb8c029c6ebef3778.setContent(html_c26cfaa25f87406da16c65a6dc690615);
+        
+
+        marker_25613e9b22604fee95352957f5cc015c.bindPopup(popup_c418ca770084444fb8c029c6ebef3778)
+        ;
+
+        
+    
+    
+            var marker_b0033697c53a400692d358c5e6891a1e = L.marker(
+                [-7.8429839999999995, 110.362816],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_2b9bd2c2f91c4580a92e20e5bac6f808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98b0fa56adac4ee9ae9b534bc74c8801 = $(`<div id="html_98b0fa56adac4ee9ae9b534bc74c8801" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SEWON</div>`)[0];
+            popup_2b9bd2c2f91c4580a92e20e5bac6f808.setContent(html_98b0fa56adac4ee9ae9b534bc74c8801);
+        
+
+        marker_b0033697c53a400692d358c5e6891a1e.bindPopup(popup_2b9bd2c2f91c4580a92e20e5bac6f808)
+        ;
+
+        
+    
+    
+            var marker_a0ca2ac5ac7a44959224169d1a180621 = L.marker(
+                [-7.8045, 110.2732],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_a2c86dc7831248538e5d091f11c51070 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9237f5946dd45fa914f87acc2a797cd = $(`<div id="html_f9237f5946dd45fa914f87acc2a797cd" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SEDAYU</div>`)[0];
+            popup_a2c86dc7831248538e5d091f11c51070.setContent(html_f9237f5946dd45fa914f87acc2a797cd);
+        
+
+        marker_a0ca2ac5ac7a44959224169d1a180621.bindPopup(popup_a2c86dc7831248538e5d091f11c51070)
+        ;
+
+        
+    
+    
+            var marker_6b50864f448847ab9a7f466e6af1be46 = L.marker(
+                [-7.8816, 110.3428],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_5a44b1e1a28a44529c4ef2657d74337c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8cdaa311954673a7720d884c3fd25a = $(`<div id="html_3e8cdaa311954673a7720d884c3fd25a" style="width: 100.0%; height: 100.0%;">SMA NEGERI 3 BANTUL</div>`)[0];
+            popup_5a44b1e1a28a44529c4ef2657d74337c.setContent(html_3e8cdaa311954673a7720d884c3fd25a);
+        
+
+        marker_6b50864f448847ab9a7f466e6af1be46.bindPopup(popup_5a44b1e1a28a44529c4ef2657d74337c)
+        ;
+
+        
+    
+    
+            var marker_6d1c8488fba646399f8c1335661beef7 = L.marker(
+                [-7.928999999999999, 110.2321],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_395b0ced3017404c96583b08cfdbdfd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38f0c2f319c74c57ba673e473aa773fa = $(`<div id="html_38f0c2f319c74c57ba673e473aa773fa" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 LENDAH</div>`)[0];
+            popup_395b0ced3017404c96583b08cfdbdfd1.setContent(html_38f0c2f319c74c57ba673e473aa773fa);
+        
+
+        marker_6d1c8488fba646399f8c1335661beef7.bindPopup(popup_395b0ced3017404c96583b08cfdbdfd1)
+        ;
+
+        
+    
+    
+            var marker_c9aa7c95469b47b09cb468cc238e4933 = L.marker(
+                [-7.8794, 110.0723],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_8be51fc54f124d54874af39bc5d993dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a06e1d5a6af0421fac5d51162d6aaa34 = $(`<div id="html_a06e1d5a6af0421fac5d51162d6aaa34" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 TEMON</div>`)[0];
+            popup_8be51fc54f124d54874af39bc5d993dc.setContent(html_a06e1d5a6af0421fac5d51162d6aaa34);
+        
+
+        marker_c9aa7c95469b47b09cb468cc238e4933.bindPopup(popup_8be51fc54f124d54874af39bc5d993dc)
+        ;
+
+        
+    
+    
+            var marker_3896230d39ed4f7db518e72b39846704 = L.marker(
+                [-7.8092, 110.4166],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_f036fc92d1a3409eacb1c967c632b4f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad91cab16cad4a05a8d5642c5f1c8b76 = $(`<div id="html_ad91cab16cad4a05a8d5642c5f1c8b76" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 BANGUNTAPAN</div>`)[0];
+            popup_f036fc92d1a3409eacb1c967c632b4f3.setContent(html_ad91cab16cad4a05a8d5642c5f1c8b76);
+        
+
+        marker_3896230d39ed4f7db518e72b39846704.bindPopup(popup_f036fc92d1a3409eacb1c967c632b4f3)
+        ;
+
+        
+    
+    
+            var marker_02553f5d334a44779069609b12bc94d8 = L.marker(
+                [-7.8945, 110.3385],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_14f8d0dd355b4be197f6bdb5f1ab4896 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2f8f8b3d5f34bb2b00a569245dca0e3 = $(`<div id="html_b2f8f8b3d5f34bb2b00a569245dca0e3" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 BANTUL</div>`)[0];
+            popup_14f8d0dd355b4be197f6bdb5f1ab4896.setContent(html_b2f8f8b3d5f34bb2b00a569245dca0e3);
+        
+
+        marker_02553f5d334a44779069609b12bc94d8.bindPopup(popup_14f8d0dd355b4be197f6bdb5f1ab4896)
+        ;
+
+        
+    
+    
+            var marker_7709f484ccf249f78f4148158cd4f259 = L.marker(
+                [-7.8391, 110.0975],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_5968a2b8507f487cb49c84eb15954b71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b86e7560f7a440ddb7292a09e7550321 = $(`<div id="html_b86e7560f7a440ddb7292a09e7550321" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 KOKAP</div>`)[0];
+            popup_5968a2b8507f487cb49c84eb15954b71.setContent(html_b86e7560f7a440ddb7292a09e7550321);
+        
+
+        marker_7709f484ccf249f78f4148158cd4f259.bindPopup(popup_5968a2b8507f487cb49c84eb15954b71)
+        ;
+
+        
+    
+    
+            var marker_635fcbcf58634e53b8cdf4ea43417dec = L.marker(
+                [-7.9375, 110.46700000000001],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_2868776072f047c4bf4b7631457640b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c38c4eba13524ec9bd7a9082b0bb647a = $(`<div id="html_c38c4eba13524ec9bd7a9082b0bb647a" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 DLINGO</div>`)[0];
+            popup_2868776072f047c4bf4b7631457640b1.setContent(html_c38c4eba13524ec9bd7a9082b0bb647a);
+        
+
+        marker_635fcbcf58634e53b8cdf4ea43417dec.bindPopup(popup_2868776072f047c4bf4b7631457640b1)
+        ;
+
+        
+    
+    
+            var marker_66de30ab907941539db12e0b01a341ce = L.marker(
+                [-7.9701, 110.2984],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_e038d2e6440249e9b5af70a3df16f4bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_220dad814e3444648239727691b02372 = $(`<div id="html_220dad814e3444648239727691b02372" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 KRETEK</div>`)[0];
+            popup_e038d2e6440249e9b5af70a3df16f4bf.setContent(html_220dad814e3444648239727691b02372);
+        
+
+        marker_66de30ab907941539db12e0b01a341ce.bindPopup(popup_e038d2e6440249e9b5af70a3df16f4bf)
+        ;
+
+        
+    
+    
+            var marker_9cf103ea65324bd7945f6f4ba65e46e1 = L.marker(
+                [-7.657627000000001, 110.158322],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_2035e68d8a3344b596894594446d7680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c116283433643099e203531216aeede = $(`<div id="html_5c116283433643099e203531216aeede" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SAMIGALUH</div>`)[0];
+            popup_2035e68d8a3344b596894594446d7680.setContent(html_5c116283433643099e203531216aeede);
+        
+
+        marker_9cf103ea65324bd7945f6f4ba65e46e1.bindPopup(popup_2035e68d8a3344b596894594446d7680)
+        ;
+
+        
+    
+    
+            var marker_1ce6434ac90b4801b8f266366c25aaf1 = L.marker(
+                [-7.8178, 110.3489],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_d196af47182a406ab74216db12d740f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c219d04226ac4e95bb2dda11d5fcebff = $(`<div id="html_c219d04226ac4e95bb2dda11d5fcebff" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 KASIHAN</div>`)[0];
+            popup_d196af47182a406ab74216db12d740f7.setContent(html_c219d04226ac4e95bb2dda11d5fcebff);
+        
+
+        marker_1ce6434ac90b4801b8f266366c25aaf1.bindPopup(popup_d196af47182a406ab74216db12d740f7)
+        ;
+
+        
+    
+    
+            var marker_9d78e2e36f134751923ed117e429bd00 = L.marker(
+                [-7.957658199999999, 110.34607539999999],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_75d764ba199847f68dacf76a52f4c075 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303b3b6b5ac04e6cac6699dab1375c70 = $(`<div id="html_303b3b6b5ac04e6cac6699dab1375c70" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 PUNDONG</div>`)[0];
+            popup_75d764ba199847f68dacf76a52f4c075.setContent(html_303b3b6b5ac04e6cac6699dab1375c70);
+        
+
+        marker_9d78e2e36f134751923ed117e429bd00.bindPopup(popup_75d764ba199847f68dacf76a52f4c075)
+        ;
+
+        
+    
+    
+            var marker_a8670bf57d3747e2b21bfd0a4c52ad1f = L.marker(
+                [-7.8159, 110.227],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_2f8d94eb4ec84cdf883273bf7a1f6bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9b785fc053c4a73ba830573a84d3598 = $(`<div id="html_f9b785fc053c4a73ba830573a84d3598" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 SENTOLO</div>`)[0];
+            popup_2f8d94eb4ec84cdf883273bf7a1f6bb8.setContent(html_f9b785fc053c4a73ba830573a84d3598);
+        
+
+        marker_a8670bf57d3747e2b21bfd0a4c52ad1f.bindPopup(popup_2f8d94eb4ec84cdf883273bf7a1f6bb8)
+        ;
+
+        
+    
+    
+            var marker_38cb8644580f445da9c11ad60840ae91 = L.marker(
+                [-7.943, 110.3001],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_bd58e1bf06644be7aa48592c2e869d8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa8ce422025346ffbe6fb6abe0771bb2 = $(`<div id="html_fa8ce422025346ffbe6fb6abe0771bb2" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 BAMBANGLIPURO</div>`)[0];
+            popup_bd58e1bf06644be7aa48592c2e869d8b.setContent(html_fa8ce422025346ffbe6fb6abe0771bb2);
+        
+
+        marker_38cb8644580f445da9c11ad60840ae91.bindPopup(popup_bd58e1bf06644be7aa48592c2e869d8b)
+        ;
+
+        
+    
+    
+            var marker_10f71d4fdc5d4f4ea315b48cccc75af2 = L.marker(
+                [-7.8434, 110.4421],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_1be4284ba4d44c1ab95d89e463127ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c453996f6a498db9fbf505578086a0 = $(`<div id="html_03c453996f6a498db9fbf505578086a0" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 PIYUNGAN</div>`)[0];
+            popup_1be4284ba4d44c1ab95d89e463127ed6.setContent(html_03c453996f6a498db9fbf505578086a0);
+        
+
+        marker_10f71d4fdc5d4f4ea315b48cccc75af2.bindPopup(popup_1be4284ba4d44c1ab95d89e463127ed6)
+        ;
+
+        
+    
+    
+            var marker_ae768dabad3f448fbc818c40ac257de4 = L.marker(
+                [-7.8903, 110.3747],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_b8bcc7e6fdd548b0b09d8310f613d1ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793d20ad182744fa8765cc0bd557d604 = $(`<div id="html_793d20ad182744fa8765cc0bd557d604" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 JETIS</div>`)[0];
+            popup_b8bcc7e6fdd548b0b09d8310f613d1ad.setContent(html_793d20ad182744fa8765cc0bd557d604);
+        
+
+        marker_ae768dabad3f448fbc818c40ac257de4.bindPopup(popup_b8bcc7e6fdd548b0b09d8310f613d1ad)
+        ;
+
+        
+    
+    
+            var marker_bdd89235e65f4add9c0f67b4e1aad78f = L.marker(
+                [-7.8473, 110.4016],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_346d9f9efb224b9d95322c8a65cf084a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e698629502a74b63ba148ea9e470ac8f = $(`<div id="html_e698629502a74b63ba148ea9e470ac8f" style="width: 100.0%; height: 100.0%;">SMA NEGERI 2 BANGUNTAPAN</div>`)[0];
+            popup_346d9f9efb224b9d95322c8a65cf084a.setContent(html_e698629502a74b63ba148ea9e470ac8f);
+        
+
+        marker_bdd89235e65f4add9c0f67b4e1aad78f.bindPopup(popup_346d9f9efb224b9d95322c8a65cf084a)
+        ;
+
+        
+    
+    
+            var marker_e3c50db7df3e429a932777f916e35b82 = L.marker(
+                [-7.8667, 110.40899999999999],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_1823335de3b44da0a78bc57952dde773 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc829f22b46249578e90234ba3ee721c = $(`<div id="html_fc829f22b46249578e90234ba3ee721c" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 PLERET</div>`)[0];
+            popup_1823335de3b44da0a78bc57952dde773.setContent(html_fc829f22b46249578e90234ba3ee721c);
+        
+
+        marker_e3c50db7df3e429a932777f916e35b82.bindPopup(popup_1823335de3b44da0a78bc57952dde773)
+        ;
+
+        
+    
+    
+            var marker_8642190671b54517a64da6be1134c4c7 = L.marker(
+                [-7.8576, 110.1745],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_c61e0bd186eb4d4c935e561b996f1a1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99241ae4c4e747a8bf99bff88df13e10 = $(`<div id="html_99241ae4c4e747a8bf99bff88df13e10" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 PENGASIH</div>`)[0];
+            popup_c61e0bd186eb4d4c935e561b996f1a1a.setContent(html_99241ae4c4e747a8bf99bff88df13e10);
+        
+
+        marker_8642190671b54517a64da6be1134c4c7.bindPopup(popup_c61e0bd186eb4d4c935e561b996f1a1a)
+        ;
+
+        
+    
+    
+            var marker_38fc94df95844a13b4665e15cc476f2d = L.marker(
+                [-7.7131, 110.2156],
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        var popup_08ce5fa4bff44bf8a0ff62dd8be12a59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19cfbfc9faf640dab0a1b7f9d757abcc = $(`<div id="html_19cfbfc9faf640dab0a1b7f9d757abcc" style="width: 100.0%; height: 100.0%;">SMA NEGERI 1 KALIBAWANG</div>`)[0];
+            popup_08ce5fa4bff44bf8a0ff62dd8be12a59.setContent(html_19cfbfc9faf640dab0a1b7f9d757abcc);
+        
+
+        marker_38fc94df95844a13b4665e15cc476f2d.bindPopup(popup_08ce5fa4bff44bf8a0ff62dd8be12a59)
+        ;
+
+        
+    
+    
+            var choropleth_b8898352d70d43f1bb1cf3259a114784 = L.featureGroup(
+                {}
+            ).addTo(map_2ae6e19256434af481ea3baea51468d3);
+        
+    
+        function geo_json_8168eb1d41af43fcbe99a74eb177d4bf_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "BuPu", "fillOpacity": 0.01, "opacity": 0.25, "weight": 1};
+            }
+        }
+        function geo_json_8168eb1d41af43fcbe99a74eb177d4bf_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_2ae6e19256434af481ea3baea51468d3.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_8168eb1d41af43fcbe99a74eb177d4bf = L.geoJson(null, {
+                onEachFeature: geo_json_8168eb1d41af43fcbe99a74eb177d4bf_onEachFeature,
+            
+                style: geo_json_8168eb1d41af43fcbe99a74eb177d4bf_styler,
+        }).addTo(choropleth_b8898352d70d43f1bb1cf3259a114784);
+            geo_json_8168eb1d41af43fcbe99a74eb177d4bf.addData({"features": [{"geometry": {"coordinates": [[]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.26018888425607, -7.6832932971378884], [110.31581345483883, -7.685191201533616], [110.33823681091984, -7.652871369103182], [110.24734720973113, -7.245615532774949], [110.23475274164672, -7.636016693841317]]], "type": "Polygon"}, "id": "1", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.56603407554516, -8.013103370350176], [110.5012723476109, -8.035023556599896]]], "type": "Polygon"}, "id": "2", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.11164253552178, -7.875972379532229], [110.02565464488265, -7.822203276700822]]], "type": "Polygon"}, "id": "3", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.18726340860991, -7.896136671582963], [110.07806058099396, -8.045768617320366], [110.11164253552178, -7.875972379532229], [110.12292399290331, -7.865880207403299], [110.16334683768099, -7.8779418761358615]]], "type": "Polygon"}, "id": "4", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.09847106648407, -7.739745656420477], [110.1405021554442, -7.799899075718937], [110.17256527595353, -7.813066771356763], [110.18379424044795, -7.815402820707849], [110.24008423507463, -7.769609794776113], [110.24424489491152, -7.758897746751599], [110.1511254523598, -7.722365077303098], [110.09868206238784, -7.737719040764855]]], "type": "Polygon"}, "id": "5", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.1405021554442, -7.799899075718937], [110.12292399290331, -7.865880207403299], [110.16334683768099, -7.8779418761358615], [110.17256527595353, -7.813066771356763]]], "type": "Polygon"}, "id": "6", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.09847106648407, -7.739745656420477], [110.02565464488265, -7.822203276700822], [110.11164253552178, -7.875972379532229], [110.12292399290331, -7.865880207403299], [110.1405021554442, -7.799899075718937]]], "type": "Polygon"}, "id": "7", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.24424489491152, -7.758897746751599], [110.2550110141842, -7.752112971367505], [110.30649907621007, -7.805513902570818], [110.3098351218909, -7.8180647573578215], [110.30666553471201, -7.836105189646702], [110.26107309224192, -7.8546699001382985], [110.24008423507463, -7.769609794776113]]], "type": "Polygon"}, "id": "8", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.1511254523598, -7.722365077303098], [110.23475274164672, -7.636016693841317], [110.26018888425607, -7.6832932971378884], [110.26361262341254, -7.738853976431759], [110.2550110141842, -7.752112971367505], [110.24424489491152, -7.758897746751599]]], "type": "Polygon"}, "id": "9", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.09868206238784, -7.737719040764855]]], "type": "Polygon"}, "id": "10", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.09847106648407, -7.739745656420477], [110.02565464488265, -7.822203276700822]]], "type": "Polygon"}, "id": "11", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.71058094075923, -8.019708636224086], [110.66697125406613, -8.108030059454522]]], "type": "Polygon"}, "id": "12", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.63809579115154, -7.899803609586064], [110.77015250053954, -7.968987057760702]]], "type": "Polygon"}, "id": "13", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.5287767308223, -7.921280921219257], [110.51698805339028, -7.921566933160675], [110.48686368286971, -8.003061722891072], [110.5012723476109, -8.035023556599896], [110.56603407554516, -8.013103370350176], [110.56976538606149, -7.962441781606795]]], "type": "Polygon"}, "id": "14", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.49732149387208, -7.8437647185840635], [110.57366605004854, -7.786370485971129], [110.63852231457297, -7.754125628250019], [110.62831759788004, -7.870860226888829], [110.5287767308223, -7.921280921219257], [110.51698805339028, -7.921566933160675], [110.48488554508967, -7.882422847261074]]], "type": "Polygon"}, "id": "15", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.26993145861759, -7.907847551077214], [110.22022435521758, -7.9517915120540055], [110.20954587464968, -7.888261311206976], [110.2291213526881, -7.872469328923878], [110.24659801243281, -7.871681256733799]]], "type": "Polygon"}, "id": "16", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.20954587464968, -7.888261311206976], [110.18726340860991, -7.896136671582963], [110.16334683768099, -7.8779418761358615], [110.17256527595353, -7.813066771356763], [110.18379424044795, -7.815402820707849], [110.2291213526881, -7.872469328923878]]], "type": "Polygon"}, "id": "17", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.24659801243281, -7.871681256733799], [110.26107309224192, -7.8546699001382985], [110.24008423507463, -7.769609794776113], [110.18379424044795, -7.815402820707849], [110.2291213526881, -7.872469328923878]]], "type": "Polygon"}, "id": "18", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.20343613919097, -8.034618544383802], [110.27226980033278, -7.923425707154737], [110.28619975643701, -7.955731350034795], [109.958046170517, -8.73825143953649]]], "type": "Polygon"}, "id": "19", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.20343613919097, -8.034618544383802], [110.22022435521758, -7.9517915120540055], [110.26993145861759, -7.907847551077214], [110.2723171141581, -7.910225149891642], [110.27226980033278, -7.923425707154737]]], "type": "Polygon"}, "id": "20", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.20343613919097, -8.034618544383802], [110.22022435521758, -7.9517915120540055], [110.20954587464968, -7.888261311206976], [110.18726340860991, -7.896136671582963], [110.07806058099396, -8.045768617320366]]], "type": "Polygon"}, "id": "21", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.33186977189645, -7.760978384062054], [110.34453499812902, -7.754173247699386], [110.36480902206087, -7.736552891821453], [110.34571621929449, -7.710627280182589], [110.33393653344702, -7.708347228696155], [110.29527743437765, -7.739538092718037], [110.3315937654539, -7.761006340515719]]], "type": "Polygon"}, "id": "22", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.34571621929449, -7.710627280182589], [110.36469431645388, -7.676994747427687], [110.36479554304935, -7.675788423275988], [110.33823681091984, -7.652871369103182], [110.31581345483883, -7.685191201533616], [110.33393653344702, -7.708347228696155]]], "type": "Polygon"}, "id": "23", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.29527743437765, -7.739538092718037], [110.26361262341254, -7.738853976431759], [110.26018888425607, -7.6832932971378884], [110.31581345483883, -7.685191201533616], [110.33393653344702, -7.708347228696155]]], "type": "Polygon"}, "id": "24", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3315937654539, -7.761006340515719], [110.30649907621007, -7.805513902570818], [110.2550110141842, -7.752112971367505], [110.26361262341254, -7.738853976431759], [110.29527743437765, -7.739538092718037]]], "type": "Polygon"}, "id": "25", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.34713182432799, -7.7886930941230705], [110.33186977189645, -7.760978384062054], [110.3315937654539, -7.761006340515719], [110.30649907621007, -7.805513902570818], [110.3098351218909, -7.8180647573578215], [110.33585812055951, -7.8057980239786815]]], "type": "Polygon"}, "id": "26", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.6360108999942, -7.907004141897532], [110.63570048456351, -7.97393532294189], [110.61813355091097, -7.992168858987495], [110.58394450192448, -7.953507753073407]]], "type": "Polygon"}, "id": "27", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.58394450192448, -7.953507753073407], [110.56976538606149, -7.962441781606795], [110.56603407554516, -8.013103370350176], [110.59719467802267, -8.01863704976867], [110.61813355091097, -7.992168858987495]]], "type": "Polygon"}, "id": "28", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.63570048456351, -7.97393532294189], [110.71058094075923, -8.019708636224086], [110.66697125406613, -8.108030059454522], [110.59719467802267, -8.01863704976867], [110.61813355091097, -7.992168858987495]]], "type": "Polygon"}, "id": "29", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.6360108999942, -7.907004141897532], [110.63809579115154, -7.899803609586064], [110.77015250053954, -7.968987057760702], [110.71058094075923, -8.019708636224086], [110.63570048456351, -7.97393532294189]]], "type": "Polygon"}, "id": "30", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.6360108999942, -7.907004141897532], [110.63809579115154, -7.899803609586064], [110.62831759788004, -7.870860226888829], [110.5287767308223, -7.921280921219257], [110.56976538606149, -7.962441781606795], [110.58394450192448, -7.953507753073407]]], "type": "Polygon"}, "id": "31", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.39438360421627, -7.65966976401652], [110.41607814198842, -7.685144341250581], [110.44342180543315, -7.677742937575217], [110.44547016134543, -7.6758761322857465], [110.40090343049394, -7.620860909613475]]], "type": "Polygon"}, "id": "32", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.44342180543315, -7.677742937575217], [110.45371807448646, -7.736317268189669], [110.70886596976874, -7.633362854303859], [110.83586979076806, -7.465338335727684], [110.44547016134543, -7.6758761322857465]]], "type": "Polygon"}, "id": "33", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.40090343049394, -7.620860909613475]]], "type": "Polygon"}, "id": "34", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.39438360421627, -7.65966976401652], [110.36479554304935, -7.675788423275988], [110.36469431645388, -7.676994747427687], [110.40309694486184, -7.719027465953823], [110.41607814198842, -7.685144341250581]]], "type": "Polygon"}, "id": "35", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.39438360421627, -7.65966976401652], [110.36479554304935, -7.675788423275988], [110.33823681091984, -7.652871369103182], [110.24734720973113, -7.245615532774949]]], "type": "Polygon"}, "id": "36", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.4024607998369, -7.732337171417692], [110.40309694486184, -7.719027465953823], [110.41607814198842, -7.685144341250581], [110.44342180543315, -7.677742937575217], [110.45371807448646, -7.736317268189669], [110.44369021564457, -7.745600200374746]]], "type": "Polygon"}, "id": "37", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.44936794124415, -7.770378916417385], [110.57366605004854, -7.786370485971129], [110.63852231457297, -7.754125628250019], [110.70886596976874, -7.633362854303859], [110.45371807448646, -7.736317268189669], [110.44369021564457, -7.745600200374746]]], "type": "Polygon"}, "id": "38", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.44450032436957, -7.788307971905401], [110.45070512487837, -7.81037731916964], [110.49732149387208, -7.8437647185840635], [110.57366605004854, -7.786370485971129], [110.44936794124415, -7.770378916417385]]], "type": "Polygon"}, "id": "39", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.4024607998369, -7.732337171417692], [110.40309694486184, -7.719027465953823], [110.36469431645388, -7.676994747427687], [110.34571621929449, -7.710627280182589], [110.36480902206087, -7.736552891821453], [110.38879317949458, -7.740005044638898]]], "type": "Polygon"}, "id": "40", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.40365854835758, -7.810327390429132], [110.41146097410603, -7.79174183696089], [110.44450032436957, -7.788307971905401], [110.45070512487837, -7.81037731916964], [110.42097009161881, -7.83254817730176]]], "type": "Polygon"}, "id": "41", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.34545000000018, -7.889650000000061], [110.3237993995094, -7.881917642681935], [110.31325274989219, -7.911114833404562]]], "type": "Polygon"}, "id": "42", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.34545000000018, -7.889650000000061], [110.35671666666667, -7.893405555555558], [110.36366709727241, -7.8679206433344895], [110.32459393473796, -7.847667680280588], [110.3233490204038, -7.847548652421051], [110.3237993995094, -7.881917642681935]]], "type": "Polygon"}, "id": "43", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.31325274989219, -7.911114833404562], [110.31244140795778, -7.913319692073784], [110.2723171141581, -7.910225149891642], [110.26993145861759, -7.907847551077214], [110.24659801243281, -7.871681256733799], [110.26107309224192, -7.8546699001382985], [110.30666553471201, -7.836105189646702], [110.3233490204038, -7.847548652421051], [110.3237993995094, -7.881917642681935]]], "type": "Polygon"}, "id": "44", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.40270989890998, -7.967418746858412], [110.35887994144511, -7.924088972576431], [110.33036325069041, -7.9275093572476685], [110.3206757884929, -7.957894053152692], [110.34172357777138, -8.038546512842286]]], "type": "Polygon"}, "id": "45", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.35887994144511, -7.924088972576431], [110.35989158167, -7.920770299155733], [110.35671666666667, -7.893405555555558], [110.34545000000018, -7.889650000000061], [110.31325274989219, -7.911114833404562], [110.31244140795778, -7.913319692073784], [110.33036325069041, -7.9275093572476685]]], "type": "Polygon"}, "id": "46", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3206757884929, -7.957894053152692], [110.28619975643701, -7.955731350034795], [110.27226980033278, -7.923425707154737], [110.2723171141581, -7.910225149891642], [110.31244140795778, -7.913319692073784], [110.33036325069041, -7.9275093572476685]]], "type": "Polygon"}, "id": "47", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.34172357777138, -8.038546512842286], [109.31903770391878, -10.459034700763787], [109.958046170517, -8.73825143953649], [110.28619975643701, -7.955731350034795], [110.3206757884929, -7.957894053152692]]], "type": "Polygon"}, "id": "48", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.40270989890998, -7.967418746858412], [110.41543147199627, -7.964129475258623], [110.48686368286971, -8.003061722891072], [110.5012723476109, -8.035023556599896]]], "type": "Polygon"}, "id": "49", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.45110982657081, -7.891360311566279], [110.4223457351208, -7.850498018562176], [110.3829284324929, -7.865533484513002], [110.39833508832915, -7.887925361427529], [110.43732176051, -7.902655619921188]]], "type": "Polygon"}, "id": "50", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3829284324929, -7.865533484513002], [110.38013335788673, -7.86378493784077], [110.36366709727241, -7.8679206433344895], [110.35671666666667, -7.893405555555558], [110.35989158167, -7.920770299155733], [110.39833508832915, -7.887925361427529]]], "type": "Polygon"}, "id": "51", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.43732176051, -7.902655619921188], [110.41543147199627, -7.964129475258623], [110.40270989890998, -7.967418746858412], [110.35887994144511, -7.924088972576431], [110.35989158167, -7.920770299155733], [110.39833508832915, -7.887925361427529]]], "type": "Polygon"}, "id": "52", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.4223457351208, -7.850498018562176], [110.42067547352146, -7.833152994261246], [110.38317042831609, -7.836493524603426], [110.38013335788673, -7.86378493784077], [110.3829284324929, -7.865533484513002]]], "type": "Polygon"}, "id": "53", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.45110982657081, -7.891360311566279], [110.48488554508967, -7.882422847261074], [110.49732149387208, -7.8437647185840635], [110.45070512487837, -7.81037731916964], [110.42097009161881, -7.83254817730176], [110.42067547352146, -7.833152994261246], [110.4223457351208, -7.850498018562176]]], "type": "Polygon"}, "id": "54", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.45110982657081, -7.891360311566279], [110.48488554508967, -7.882422847261074], [110.51698805339028, -7.921566933160675], [110.48686368286971, -8.003061722891072], [110.41543147199627, -7.964129475258623], [110.43732176051, -7.902655619921188]]], "type": "Polygon"}, "id": "55", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3955112465962, -7.781287895709127], [110.41146097410603, -7.79174183696089], [110.44450032436957, -7.788307971905401], [110.44936794124415, -7.770378916417385], [110.44369021564457, -7.745600200374746], [110.4024607998369, -7.732337171417692], [110.38879317949458, -7.740005044638898], [110.38850662957354, -7.74901345778189]]], "type": "Polygon"}, "id": "56", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.35882827816927, -7.805453519649261], [110.3783113129472, -7.810816602025679], [110.3797236541069, -7.8146206450032505], [110.37732892375558, -7.826009537022878], [110.3587941925557, -7.828769539088102], [110.35088430159921, -7.808786656671664]]], "type": "Polygon"}, "id": "57", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3797236541069, -7.8146206450032505], [110.40365854835758, -7.810327390429132], [110.42097009161881, -7.83254817730176], [110.42067547352146, -7.833152994261246], [110.38317042831609, -7.836493524603426], [110.37732892375558, -7.826009537022878]]], "type": "Polygon"}, "id": "58", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.3587941925557, -7.828769539088102], [110.32459393473796, -7.847667680280588], [110.36366709727241, -7.8679206433344895], [110.38013335788673, -7.86378493784077], [110.38317042831609, -7.836493524603426], [110.37732892375558, -7.826009537022878]]], "type": "Polygon"}, "id": "59", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.35088430159921, -7.808786656671664], [110.33585812055951, -7.8057980239786815], [110.3098351218909, -7.8180647573578215], [110.30666553471201, -7.836105189646702], [110.3233490204038, -7.847548652421051], [110.32459393473796, -7.847667680280588], [110.3587941925557, -7.828769539088102]]], "type": "Polygon"}, "id": "60", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.35882827816927, -7.805453519649261], [110.35604867433177, -7.788968902696193], [110.34713182432799, -7.7886930941230705], [110.33585812055951, -7.8057980239786815], [110.35088430159921, -7.808786656671664]]], "type": "Polygon"}, "id": "61", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.38631459535632, -7.790533465306666], [110.3955112465962, -7.781287895709127], [110.41146097410603, -7.79174183696089], [110.40365854835758, -7.810327390429132], [110.3797236541069, -7.8146206450032505], [110.3783113129472, -7.810816602025679], [110.37893753797334, -7.80218707769427]]], "type": "Polygon"}, "id": "62", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.36277816374175, -7.78710518336642], [110.37893753797334, -7.80218707769427], [110.3783113129472, -7.810816602025679], [110.35882827816927, -7.805453519649261], [110.35604867433177, -7.788968902696193], [110.36081165139882, -7.786635752253887]]], "type": "Polygon"}, "id": "63", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.36053620700018, -7.77915940429074], [110.34453499812902, -7.754173247699386], [110.33186977189645, -7.760978384062054], [110.34713182432799, -7.7886930941230705], [110.35604867433177, -7.788968902696193], [110.36081165139882, -7.786635752253887]]], "type": "Polygon"}, "id": "64", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.38135739371536, -7.759473918669106], [110.38850662957354, -7.74901345778189], [110.38879317949458, -7.740005044638898], [110.36480902206087, -7.736552891821453], [110.34453499812902, -7.754173247699386], [110.36053620700018, -7.77915940429074]]], "type": "Polygon"}, "id": "65", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.36544425837319, -7.785387033492827], [110.3746, -7.783739], [110.37459999999999, -7.774171250000015]]], "type": "Polygon"}, "id": "66", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.36544425837319, -7.785387033492827], [110.36277816374175, -7.78710518336642], [110.37893753797334, -7.80218707769427], [110.38631459535632, -7.790533465306666], [110.3746, -7.783739]]], "type": "Polygon"}, "id": "67", "properties": {}, "type": "Feature"}, {"geometry": {"coordinates": [[[110.37459999999999, -7.774171250000015], [110.38135739371536, -7.759473918669106], [110.38850662957354, -7.74901345778189], [110.3955112465962, -7.781287895709127], [110.38631459535632, -7.790533465306666], [110.3746, -7.783739]]], "type": "Polygon"}, "id": "68", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+</script>
