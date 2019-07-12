@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-https://github.com/hedi02/zonasi_voronoi
 Based on http://comet.lehman.cuny.edu/owen/teaching/datasci/voronoiLab.html
 Schools coordinates from http://sekolah.data.kemdikbud.go.id
 
